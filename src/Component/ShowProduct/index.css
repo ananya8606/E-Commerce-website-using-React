@@ -1,0 +1,126 @@
+.show-product {
+  width:100vw;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  border-top: 4px solid black;
+  padding-left:10px;
+}
+
+.item-wrapper {
+  background-color: white;
+  width:40em;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40em;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.similar-products {
+  height: 40em;
+  width:400px;
+  overflow: scroll;
+  font-family: 'Lato', sans-serif;
+  margin: 0 2em;
+  background-color: white;
+}
+#fontchange{
+  font-size:20px;
+  padding-left:20px;
+  color:#f0c14b;
+  font-weight:bold;
+}
+
+.similar-product {
+  height: 30em;
+  width:20em;
+  font-family: 'Quicksand', sans-serif;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: .5em;
+  padding: 1em;
+  background-color: white;
+  transition: transform 300ms bounce;
+}
+
+#product-name {
+  padding: 1em 0 0;
+  font-size: 1.5em;
+  font-family: 'Lato', sans-serif;
+  margin: .5em 0;
+}
+
+
+#product-descript {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  color:#f0c14b;
+  font-weight:bold;
+  margin: 0;
+}
+
+#product-description {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  color:black;
+  font-weight:bold;
+  margin: 0;
+}
+#product-price {
+  font-size: 1em;
+}
+
+.show-product .product-image {
+  height: 35em;
+}
+
+.item-name #product-name {
+  font-size: 40px;
+  border: none;
+}
+
+.item-name #product-description {
+  font-size: 30px;
+}
+
+.item-name #product-price {
+  font-size: 20px;
+  color: black;
+}
+
+.item-name{
+  padding-right:20px;
+  width:150px;
+}
+#rating{
+  font-size:10px;
+}
+
+.star-ratings-sprite {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+  height: 21px;
+  overflow: hidden;
+  text-indent: -999em;
+  width: 110px;
+  margin: 0 auto;
+  
+&-rating {
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+    background-position: 0 100%;
+    float: left;
+    height: 21px;
+    display:block;
+  }
+  }
+
+.price-add > button {
+  background: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
