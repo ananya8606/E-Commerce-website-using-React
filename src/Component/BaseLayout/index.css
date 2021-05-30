@@ -1,0 +1,26 @@
+.content {
+  background-color:#fbd86d;
+}
+
+.first-header {
+  background: url('https://i.ibb.co/KNS38rM/images-6.jpg');
+}
+
+.second-header {
+  background: url('https://preview.ibb.co/fm4Cmk/fashion3.jpg');
+}
+
+.third-header {
+  background: url('https://i.ibb.co/MBrGzvX/images-1-1622277998728.jpg');
+}
+
+.fourth-header {
+  background: url('https://preview.ibb.co/gtsZXQ/fashion6.jpg');
+}
+
+.first-header, .second-header, .third-header, .fourth-header {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+}
