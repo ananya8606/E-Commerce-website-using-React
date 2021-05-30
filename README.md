@@ -1,5 +1,8 @@
 # Live demo of Ecommerce website using React
-[![Watch the Video](   https://i.ibb.co/9gTKrcQ/Screenshot-2021-05-30-17-18-31-856-com-google-android-youtube.png)](https://youtu.be/e18VLrrLPho)
+
+## Click on the image given below:-
+
+[![](https://i.ibb.co/9gTKrcQ/Screenshot-2021-05-30-17-18-31-856-com-google-android-youtube.png)](https://youtu.be/e18VLrrLPho)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
