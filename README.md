@@ -1,6 +1,7 @@
 # Live demo of Ecommerce website using React
+E-commerce website built using Reactjs and Material UI.It filters through items from own API, adds them to the cart, and we can also see similar items when we select a certain item.
 
-## Click on the image given below:-
+Click on the image given below:-
 
 [![](https://i.ibb.co/9gTKrcQ/Screenshot-2021-05-30-17-18-31-856-com-google-android-youtube.png)](https://youtu.be/e18VLrrLPho)
 # Getting Started with Create React App
